@@ -1,0 +1,1 @@
+This is the repository for KodingKat's minecraft website.
