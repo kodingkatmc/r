@@ -4,7 +4,7 @@ import splash_img from './images/background.jpg';
 function page() {
   return (
     <div id="holder">
-      <img alt="splash image" id="background" src={splash_img}/>
+      <img alt="splash" id="background" src={splash_img}/>
       <div class="content"></div>
       <div class="content">
         <h1 class="title center">Home</h1>
