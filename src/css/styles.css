@@ -1,0 +1,38 @@
+@font-face {
+  font-family: DPSDbeyond;
+  src:url('https://kodingkatmc.github.io/u/fonts/DPSDbeyond.otf');
+}
+@font-face {
+  font-family: SoftwareTester7;
+  src:url('https://kodingkatmc.github.io/u/fonts/software_tester_7.ttf');
+}
+
+
+body{
+  margin:0;
+  font-family: Lato;
+  font-weight: lighter;
+  overflow-y: scroll;
+}
+body::-webkit-scrollbar{
+  display:none;
+}
+a:visited{
+  color:blue;
+}
+.link{
+  color: black;
+  margin-bottom: 1vh;
+  font-size: 30px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.link:hover{
+  text-decoration: underline;
+}
+.code{
+  font-family: DPSDbeyond;
+  background-color: lightgrey;
+  word-wrap: break-word;
+}

@@ -1,0 +1,28 @@
+#footer{
+  width: 100%;
+  display:inline-block;
+}
+hr{
+  margin-top: 0;
+}
+.social{
+  height: 75px;
+  width: 75px;
+}
+.socialLink{
+  color: black;
+  margin-right: 17vw;
+  margin-left: 17vw;
+}
+.socialLink:visited{
+  color: black;
+}
+#socialLinks{
+  display: flex;
+  align-items: center;
+}
+@media (max-aspect-ratio: 1/1){
+  #socialLinks{
+    display: block;
+  }
+}
