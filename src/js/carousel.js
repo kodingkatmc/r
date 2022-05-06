@@ -21,7 +21,7 @@ function showSlides(carousel, index) {
     //console.log(window.innerHeight < window.innerWidth);
     if(window.innerHeight < window.innerWidth){
     //console.log("small");
-    if(index==0){
+    if(index===0){
         $(slides[slides.length-1]).css('z-index', 0);
         $(slides[slides.length-1]).animate({left: '39vw'});
     }else{
@@ -33,7 +33,7 @@ function showSlides(carousel, index) {
     $(slides[index]).css('left', '-39vw');
     $(slides[index]).animate({left: '0'});
     }else{
-    if(index==0){
+    if(index===0){
         $(slides[slides.length-1]).css('z-index', 0);
         $(slides[slides.length-1]).animate({left: '70vw'});
     }else{
