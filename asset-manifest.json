@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/r/static/css/main.cac8aee0.css",
-    "main.js": "/r/static/js/main.692a6230.js",
+    "main.css": "/r/static/css/main.366a76b8.css",
+    "main.js": "/r/static/js/main.96cc1331.js",
     "static/media/Safe House.zip": "/r/static/media/Safe House.5d50edca37055b8b667f.zip",
     "static/media/(5).jpg": "/r/static/media/(5).ac1101f51c83bb2d343c.jpg",
     "static/media/(6).jpg": "/r/static/media/(6).13a5d4eb009e35400371.jpg",
@@ -48,11 +48,11 @@
     "static/media/Kill Non-Player Entities v1.6.zip": "/r/static/media/Kill Non-Player Entities v1.6.50beda810dcd02c20a20.zip",
     "static/media/selected_packs.txt": "/r/static/media/selected_packs.18c4a26ac3c1d96880d1.txt",
     "index.html": "/r/index.html",
-    "main.cac8aee0.css.map": "/r/static/css/main.cac8aee0.css.map",
-    "main.692a6230.js.map": "/r/static/js/main.692a6230.js.map"
+    "main.366a76b8.css.map": "/r/static/css/main.366a76b8.css.map",
+    "main.96cc1331.js.map": "/r/static/js/main.96cc1331.js.map"
   },
   "entrypoints": [
-    "static/css/main.cac8aee0.css",
-    "static/js/main.692a6230.js"
+    "static/css/main.366a76b8.css",
+    "static/js/main.96cc1331.js"
   ]
 }
