@@ -1,10 +1,10 @@
 import './css/page.css';
-import splash_img from './images/background.jpg';
 
 function page() {
+  document.title = "KodingKat - Home";
+
   return (
     <div id="holder">
-      <img alt="splash" id="background" src={splash_img}/>
       <div class="content"></div>
       <div class="content">
         <h1 class="title center">Home</h1>
