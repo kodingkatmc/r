@@ -22,7 +22,7 @@ function app() {
 
       <Router>
         <Routes>
-          <Route exact path='/r/' exact element={<Home/>} />
+          <Route exact path='/r' exact element={<Home/>} />
           <Route path='/r/datapacks' element={<Datapacks/>} />
           <Route path='/r/resourcepacks' element={<Resourcepacks/>} />
           <Route path='/r/maps' element={<Maps/>} />
