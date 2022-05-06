@@ -23,10 +23,10 @@ function app() {
       <Router>
         <Routes>
           <Route exact path='/r' exact element={<Home/>} />
-          <Route path='/r/datapacks' element={<Datapacks/>} />
-          <Route path='/r/resourcepacks' element={<Resourcepacks/>} />
-          <Route path='/r/maps' element={<Maps/>} />
-          <Route path='/r/videos' element={<Videos/>} />
+          <Route exact path='/r/datapacks' element={<Datapacks/>} />
+          <Route exact path='/r/resourcepacks' element={<Resourcepacks/>} />
+          <Route exact path='/r/maps' element={<Maps/>} />
+          <Route exact path='/r/videos' element={<Videos/>} />
         </Routes>
       </Router>
       <Footer/>
