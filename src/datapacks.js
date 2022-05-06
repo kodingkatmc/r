@@ -1,44 +1,52 @@
 import './css/page.css';
+import './css/dropdown.css';
+import './css/carousel.css';
 
-function datapacks() {
+import { useEffect } from 'react';
+
+function Datapacks() {
   document.title = "KodingKat - Datapacks";
+
+  useEffect(() => {
+    require("./js/carousel.js");
+    require("./js/dropdown.js");
+  });
 
   return (
     <div id="holder">
-      <div class="content"></div>
       <div class="content" id="augment">
         <h1 class="title right">Augment Vanilla</h1>
         <div class="content_sub">
           <div class="c_left_s">
             <p>This is my AugmentVanilla datapack from my improving minecraft series.  The datapack improves the vanilla minecraft games with some minor tweaks and changes.  This includes vein-miner, falling grass and dirt allowing for new traps, customization arrow trails, tweaked mobs, custom recipes, and more.</p>
             <p>In total there are well over 50 subtle changes to the minecraft gameplay.</p>
-            <a class="link center" href="data/datapacks/Augment Vanilla v1.9.zip">Download Augment Vanilla</a>
+            <a class="link center" download="Augment Vanilla v1.10.zip" href={require("./data/datapacks/Augment Vanilla v1.10.zip")}>Download Augment Vanilla</a>
           </div>
           <div class="c_right_l carousel">
-            <img loading="lazy" alt="augment vanilla display example" src='images/augment_vanilla/(1).jpg'/>
-            <img loading="lazy" alt="augment vanilla display example" src='images/augment_vanilla/(2).jpg'/>
-            <img loading="lazy" alt="augment vanilla display example" src='images/augment_vanilla/(3).jpg'/>
-            <img loading="lazy" alt="augment vanilla display example" src='images/augment_vanilla/(4).jpg'/>
-            <img loading="lazy" alt="augment vanilla display example" src='images/augment_vanilla/(5).jpg'/>
-            <img loading="lazy" alt="augment vanilla display example" src='images/augment_vanilla/(6).jpg'/>
-            <img loading="lazy" alt="augment vanilla display example" src='images/augment_vanilla/(7).jpg'/>
-            <img loading="lazy" alt="augment vanilla display example" src='images/augment_vanilla/(8).jpg'/>
-            <img loading="lazy" alt="augment vanilla display example" src='images/augment_vanilla/(9).jpg'/>
-            <img loading="lazy" alt="augment vanilla display example" src='images/augment_vanilla/(10).jpg'/>
-            <img loading="lazy" alt="augment vanilla display example" src='images/augment_vanilla/(11).jpg'/>
-            <img loading="lazy" alt="augment vanilla display example" src='images/augment_vanilla/(12).jpg'/>
-            <img loading="lazy" alt="augment vanilla display example" src='images/augment_vanilla/(13).jpg'/>
-            <img loading="lazy" alt="augment vanilla display example" src='images/augment_vanilla/(14).jpg'/>
-            <img loading="lazy" alt="augment vanilla display example" src='images/augment_vanilla/(15).jpg'/>
-            <img loading="lazy" alt="augment vanilla display example" src='images/augment_vanilla/(16).jpg'/>
-            <img loading="lazy" alt="augment vanilla display example" src='images/augment_vanilla/(17).jpg'/>
-            <img loading="lazy" alt="augment vanilla display example" src='images/augment_vanilla/(18).jpg'/>
-            <img loading="lazy" alt="augment vanilla display example" src='images/augment_vanilla/(19).jpg'/>
-            <img loading="lazy" alt="augment vanilla display example" src='images/augment_vanilla/(20).jpg'/>
-            <img loading="lazy" alt="augment vanilla display example" src='images/augment_vanilla/(21).jpg'/>
-            <img loading="lazy" alt="augment vanilla display example" src='images/augment_vanilla/(22).jpg'/>
-            <img loading="lazy" alt="augment vanilla display example" src='images/augment_vanilla/(23).jpg'/>
-            <img loading="lazy" alt="augment vanilla display example" src='images/augment_vanilla/(24).jpg'/>
+            <img loading="lazy" alt="augment vanilla display example" src={require('./images/augment_vanilla/(1).jpg')}/>
+            <img loading="lazy" alt="augment vanilla display example" src={require('./images/augment_vanilla/(2).jpg')}/>
+            <img loading="lazy" alt="augment vanilla display example" src={require('./images/augment_vanilla/(3).jpg')}/>
+            <img loading="lazy" alt="augment vanilla display example" src={require('./images/augment_vanilla/(4).jpg')}/>
+            <img loading="lazy" alt="augment vanilla display example" src={require('./images/augment_vanilla/(5).jpg')}/>
+            <img loading="lazy" alt="augment vanilla display example" src={require('./images/augment_vanilla/(6).jpg')}/>
+            <img loading="lazy" alt="augment vanilla display example" src={require('./images/augment_vanilla/(7).jpg')}/>
+            <img loading="lazy" alt="augment vanilla display example" src={require('./images/augment_vanilla/(8).jpg')}/>
+            <img loading="lazy" alt="augment vanilla display example" src={require('./images/augment_vanilla/(9).jpg')}/>
+            <img loading="lazy" alt="augment vanilla display example" src={require('./images/augment_vanilla/(10).jpg')}/>
+            <img loading="lazy" alt="augment vanilla display example" src={require('./images/augment_vanilla/(11).jpg')}/>
+            <img loading="lazy" alt="augment vanilla display example" src={require('./images/augment_vanilla/(12).jpg')}/>
+            <img loading="lazy" alt="augment vanilla display example" src={require('./images/augment_vanilla/(13).jpg')}/>
+            <img loading="lazy" alt="augment vanilla display example" src={require('./images/augment_vanilla/(14).jpg')}/>
+            <img loading="lazy" alt="augment vanilla display example" src={require('./images/augment_vanilla/(15).jpg')}/>
+            <img loading="lazy" alt="augment vanilla display example" src={require('./images/augment_vanilla/(16).jpg')}/>
+            <img loading="lazy" alt="augment vanilla display example" src={require('./images/augment_vanilla/(17).jpg')}/>
+            <img loading="lazy" alt="augment vanilla display example" src={require('./images/augment_vanilla/(18).jpg')}/>
+            <img loading="lazy" alt="augment vanilla display example" src={require('./images/augment_vanilla/(19).jpg')}/>
+            <img loading="lazy" alt="augment vanilla display example" src={require('./images/augment_vanilla/(20).jpg')}/>
+            <img loading="lazy" alt="augment vanilla display example" src={require('./images/augment_vanilla/(21).jpg')}/>
+            <img loading="lazy" alt="augment vanilla display example" src={require('./images/augment_vanilla/(22).jpg')}/>
+            <img loading="lazy" alt="augment vanilla display example" src={require('./images/augment_vanilla/(23).jpg')}/>
+            <img loading="lazy" alt="augment vanilla display example" src={require('./images/augment_vanilla/(24).jpg')}/>
           </div>
         </div>
         <div class="content_sub">
@@ -112,7 +120,7 @@ function datapacks() {
               <span class="code">./trigger arrowTrail set INSERTNUMBER</span></p>
               <p>The numbers correspond to </p>
               <table class="code">
-                <tr>0:normal &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3:cloud</tr>
+                <tr>0:normal &nbsp;&nbsp;&nbsp;&nbsp; 3:cloud</tr>
                 <tr>1:flame &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4:ender_pearl</tr>
                 <tr>2:smoke &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5:water</tr>
               </table>
@@ -122,23 +130,22 @@ function datapacks() {
           </div>
         </div>
       </div>
-
       <div class="content" id="ironman">
         <h1 class="title left">Iron Man</h1>
         <div class="content_sub">
           <div class="c_left_l carousel">
-            <img loading="lazy" alt="ironman display example" src='images/iron_man/(1).jpg'/>
-            <img loading="lazy" alt="ironman display example" src='images/iron_man/(2).jpg'/>
-            <img loading="lazy" alt="ironman display example" src='images/iron_man/(3).jpg'/>
-            <img loading="lazy" alt="ironman display example" src='images/iron_man/(4).jpg'/>
-            <img loading="lazy" alt="ironman display example" src='images/iron_man/(5).jpg'/>
-            <img loading="lazy" alt="ironman display example" src='images/iron_man/(6).jpg'/>
-            <img loading="lazy" alt="ironman display example" src='images/iron_man/(7).jpg'/>
-            <img loading="lazy" alt="ironman display example" src='images/iron_man/(8).jpg'/>
+            <img loading="lazy" alt="ironman display example" src={require('./images/iron_man/(1).jpg')}/>
+            <img loading="lazy" alt="ironman display example" src={require('./images/iron_man/(2).jpg')}/>
+            <img loading="lazy" alt="ironman display example" src={require('./images/iron_man/(3).jpg')}/>
+            <img loading="lazy" alt="ironman display example" src={require('./images/iron_man/(4).jpg')}/>
+            <img loading="lazy" alt="ironman display example" src={require('./images/iron_man/(5).jpg')}/>
+            <img loading="lazy" alt="ironman display example" src={require('./images/iron_man/(6).jpg')}/>
+            <img loading="lazy" alt="ironman display example" src={require('./images/iron_man/(7).jpg')}/>
+            <img loading="lazy" alt="ironman display example" src={require('./images/iron_man/(8).jpg')}/>
           </div>
           <div class="c_right_s">
             <p>This is my Ironman datapack.  This datapack adds armor and weapons that transforms you into Ironman from the MCU.  Fire machine guns, activate repulsors, shoot lasers, fly, get critical statistics, and become almost invincible with this datapack.</p>
-            <a class="link center" href="data/datapacks/Iron Man v1.8.zip">Download Iron Man</a>
+            <a class="link center" download="Iron Man v1.9.zip" href={require("./data/datapacks/Iron Man v1.9.zip")}>Download Iron Man</a>
             <h3 class="collapsible_head">Feature List<span class="material-icons expand">expand_more</span></h3>
             <ul class="collapsible">
               <li>Custom Helmet Model</li>
@@ -154,41 +161,39 @@ function datapacks() {
           </div>
         </div>
       </div>
-
       <div class="content" id="caves">
         <h1 class="title right">Cave Creation</h1>
         <div class="content_sub">
           <div class="c_left_s">
             <p>Create custom cave networks with this datapack.</p>
             <p>Connect to points with the custom point to point system, or manually shape your world with single explosions.</p>
-            <a class="link center" href="data/datapacks/Cave Creation v1.7.zip">Download Cave Creation</a>
+            <a class="link center" download="Cave Creation v1.7.zip" href={require("./data/datapacks/Cave Creation v1.7.zip")}>Download Cave Creation</a>
           </div>
           <div class="c_right_l carousel">
-            <img loading="lazy" alt="caves display example" src='images/cave_creation/(1).jpg'/>
-            <img loading="lazy" alt="caves display example" src='images/cave_creation/(2).jpg'/>
-            <img loading="lazy" alt="caves display example" src='images/cave_creation/(3).jpg'/>
-            <img loading="lazy" alt="caves display example" src='images/cave_creation/(4).jpg'/>
-            <img loading="lazy" alt="caves display example" src='images/cave_creation/(5).jpg'/>
-            <img loading="lazy" alt="caves display example" src='images/cave_creation/(6).jpg'/>
+            <img loading="lazy" alt="caves display example" src={require('./images/cave_creation/(1).jpg')}/>
+            <img loading="lazy" alt="caves display example" src={require('./images/cave_creation/(2).jpg')}/>
+            <img loading="lazy" alt="caves display example" src={require('./images/cave_creation/(3).jpg')}/>
+            <img loading="lazy" alt="caves display example" src={require('./images/cave_creation/(4).jpg')}/>
+            <img loading="lazy" alt="caves display example" src={require('./images/cave_creation/(5).jpg')}/>
+            <img loading="lazy" alt="caves display example" src={require('./images/cave_creation/(6).jpg')}/>
           </div>
         </div>
       </div>
-
       <div class="content" id="kktools">
         <h1 class="title left">Building Tools</h1>
         <div class="content_sub">
           <div class="c_left_l carousel">
-            <img loading="lazy" alt="building tools display example" src='images/building_tools/(1).jpg'/>
-            <img loading="lazy" alt="building tools display example" src='images/building_tools/(2).jpg'/>
-            <img loading="lazy" alt="building tools display example" src='images/building_tools/(3).jpg'/>
-            <img loading="lazy" alt="building tools display example" src='images/building_tools/(4).jpg'/>
-            <img loading="lazy" alt="building tools display example" src='images/building_tools/(5).jpg'/>
-            <img loading="lazy" alt="building tools display example" src='images/building_tools/(6).jpg'/>
+            <img loading="lazy" alt="building tools display example" src={require('./images/building_tools/(1).jpg')}/>
+            <img loading="lazy" alt="building tools display example" src={require('./images/building_tools/(2).jpg')}/>
+            <img loading="lazy" alt="building tools display example" src={require('./images/building_tools/(3).jpg')}/>
+            <img loading="lazy" alt="building tools display example" src={require('./images/building_tools/(4).jpg')}/>
+            <img loading="lazy" alt="building tools display example" src={require('./images/building_tools/(5).jpg')}/>
+            <img loading="lazy" alt="building tools display example" src={require('./images/building_tools/(6).jpg')}/>
           </div>
           <div class="c_right_s">
             <p>Additional tools for building in minecraft.</p>
             <p>Randomize block placements with this datapack.  Use the <span class="code">/fill</span> command with your custom palette.</p> <p>Create a custom palette with as many blocks as you want.  The weight of the palette is reflected in the block placement.  Palette armorstands without blocks under them copy as an air block.</p>
-            <a class="link center" href="data/datapacks/Building Tools v2.4.zip">Download Building Tools</a>
+            <a class="link center" download="Building Tools v2.4.zip" href={require("./data/datapacks/Building Tools v2.4.zip")}>Download Building Tools</a>
           </div>
         </div>
       </div>
@@ -198,14 +203,14 @@ function datapacks() {
           <div class="c_left_s">
             <p>The dweller is a hostile mob that roams caves and glows when ores are nearby.</p>
             <p>Maybe you can use this unique ability to enhance your caving experience.</p>
-            <a class="link center" href="data/datapacks/Dweller v1.4.zip">Download Dweller</a>
+            <a class="link center" download="Dweller v1.4.zip" href={require("./data/datapacks/Dweller v1.4.zip")}>Download Dweller</a>
           </div>
           <div class="c_right_l carousel">
-            <img loading="lazy" alt="dweller display example" src='images/dweller/1.jpg'/>
-            <img loading="lazy" alt="dweller display example" src='images/dweller/2.jpg'/>
-            <img loading="lazy" alt="dweller display example" src='images/dweller/3.jpg'/>
-            <img loading="lazy" alt="dweller display example" src='images/dweller/4.jpg'/>
-            <img loading="lazy" alt="dweller display example" src='images/dweller/5.jpg'/>
+            <img loading="lazy" alt="dweller display example" src={require('./images/dweller/1.jpg')}/>
+            <img loading="lazy" alt="dweller display example" src={require('./images/dweller/2.jpg')}/>
+            <img loading="lazy" alt="dweller display example" src={require('./images/dweller/3.jpg')}/>
+            <img loading="lazy" alt="dweller display example" src={require('./images/dweller/4.jpg')}/>
+            <img loading="lazy" alt="dweller display example" src={require('./images/dweller/5.jpg')}/>
           </div>
         </div>
       </div>
@@ -213,15 +218,15 @@ function datapacks() {
         <h1 class="title left">Wolf Armor</h1>
         <div class="content_sub">
           <div class="c_left_l carousel">
-            <img loading="lazy" alt="wolf armor display example" src='images/wolf_armor/1.jpg'/>
-            <img loading="lazy" alt="wolf armor display example" src='images/wolf_armor/2.jpg'/>
-            <img loading="lazy" alt="wolf armor display example" src='images/wolf_armor/3.jpg'/>
-            <img loading="lazy" alt="wolf armor display example" src='images/wolf_armor/4.jpg'/>
+            <img loading="lazy" alt="wolf armor display example" src={require('./images/wolf_armor/1.jpg')}/>
+            <img loading="lazy" alt="wolf armor display example" src={require('./images/wolf_armor/2.jpg')}/>
+            <img loading="lazy" alt="wolf armor display example" src={require('./images/wolf_armor/3.jpg')}/>
+            <img loading="lazy" alt="wolf armor display example" src={require('./images/wolf_armor/4.jpg')}/>
           </div>
           <div class="c_right_s">
             <p>Wolf Armor allows you to equip your wolves with their own custom armor.  This allows them to accompany you on dangerous voyages and adventures without dying.</p>
             <p>Simply craft it with 2 leather 2 leads and the horse armor of your choice and receive a new wolf armor item.  Drop this item on the ground next to a wolf to equip it.  To unequip it you must sit the wolf and then shift nearby.</p>
-            <a class="link center" href="data/datapacks/Wolf Armor v1.2.zip">Download Wolf Armor</a>
+            <a class="link center" download="Wolf Armor v1.3.zip" href={require("./data/datapacks/Wolf Armor v1.3.zip")}>Download Wolf Armor</a>
           </div>
         </div>
       </div>
@@ -230,10 +235,10 @@ function datapacks() {
         <div class="content_sub">
           <div class="c_left_s">
             <p>Kill all non-player entities and their drops.</p>
-            <a class="link center" href="data/datapacks/Kill Non-Player Entities v1.6.zip">Download Kill Non-Player Entities</a>
+            <a class="link center" download="Kill Non-Player Entities v1.6.zip" href={require("./data/datapacks/Kill Non-Player Entities v1.6.zip")}>Download Kill Non-Player Entities</a>
           </div>
           <div class="c_right_l">
-            <img loading="lazy" alt="kill entities display example" src='images/kill e.jpg'/>
+            <img loading="lazy" alt="kill entities display example" src={require('./images/kill e.jpg')}/>
           </div>
         </div>
       </div>
@@ -241,4 +246,4 @@ function datapacks() {
   );
 }
 
-export default datapacks;
+export default Datapacks;

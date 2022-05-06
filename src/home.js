@@ -1,6 +1,6 @@
 import './css/page.css';
 
-function page() {
+function Home() {
   document.title = "KodingKat - Home";
 
   return (
@@ -35,4 +35,4 @@ function page() {
   );
 }
 
-export default page;
+export default Home;

@@ -13,13 +13,12 @@ import Maps from './maps.js';
 import Videos from './videos.js';
 import './css/styles.css';
 
-import splash_img from './images/background.jpg';
 
 function app() {
   return (
     <div>
       <Navbar/>
-      <img alt="splash" id="background" src={splash_img}/>
+      <img alt="splash" id="background" src={require('./images/background.jpg')}/>
 
       <Router>
         <Routes>

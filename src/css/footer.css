@@ -1,6 +1,8 @@
-#footer{
+.footer{
   width: 100%;
   display:inline-block;
+  background: #323232;
+  color: white;
 }
 hr{
   margin-top: 0;
@@ -10,12 +12,12 @@ hr{
   width: 75px;
 }
 .socialLink{
-  color: black;
+  color: white;
   margin-right: 17vw;
   margin-left: 17vw;
 }
 .socialLink:visited{
-  color: black;
+  color: rgb(196, 196, 196);
 }
 #socialLinks{
   display: flex;

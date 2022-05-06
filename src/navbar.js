@@ -1,6 +1,6 @@
 import './css/navbar.css';
 
-function navbar() {
+function Navbar() {
   return (
     <div class="navbar">
       <label for="hamburger">&#9776;</label>
@@ -19,4 +19,4 @@ function navbar() {
   );
 }
 
-export default navbar;
+export default Navbar;

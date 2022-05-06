@@ -7,6 +7,7 @@ document.addEventListener('scroll', () => {
     }
 });
 
+/*
 function menu() {
     var x = document.getElementById("");
     if (x.style.display === "block") {
@@ -15,3 +16,4 @@ function menu() {
     x.style.display = "block";
     }
 }
+*/
