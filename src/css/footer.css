@@ -15,9 +15,20 @@ hr{
   color: white;
   margin-right: 17vw;
   margin-left: 17vw;
+  margin-bottom: 1vh;
+  font-size: 30px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.socialLink:hover{
+  text-decoration: underline;
 }
 .socialLink:visited{
   color: rgb(196, 196, 196);
+}
+.socialLink > span{
+  padding-left: 20px
 }
 #socialLinks{
   display: flex;

@@ -7,6 +7,8 @@ document.addEventListener('scroll', () => {
     }
 });
 
+
+//NO IDEA what this was meant to do but afraid to delete it.
 /*
 function menu() {
     var x = document.getElementById("");

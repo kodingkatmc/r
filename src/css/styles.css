@@ -45,7 +45,6 @@ body::-webkit-scrollbar{
   margin-bottom: 1vh;
   font-size: 30px;
   text-decoration: none;
-  display: flex;
   align-items: center;
 }
 .link:hover{

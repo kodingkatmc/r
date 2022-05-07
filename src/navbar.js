@@ -1,17 +1,19 @@
+import { Link } from "react-router-dom";
+
 import './css/navbar.css';
 
 function Navbar() {
   return (
-    <div class="navbar">
-      <label for="hamburger">&#9776;</label>
+    <div className="navbar">
+      <label htmlFor="hamburger">&#9776;</label>
       <input type="checkbox" id="hamburger"/>
       
-      <div class="nav_list">
-        <a class="page_link selected" href="/r/">Home</a>
-        <a class="page_link" href="/r/datapacks">Datapacks</a>
-        <a class="page_link" href="/r/resourcepacks">Resourcepacks</a>
-        <a class="page_link" href="/r/maps">Maps</a>
-        <a class="page_link" href="/r/videos">Videos</a>
+      <div className="nav_list">
+        <Link className="page_link selected" to="/">Home</Link>
+        <Link className="page_link" to="/datapacks">Datapacks</Link>
+        <Link className="page_link" to="/resourcepacks">Resourcepacks</Link>
+        <Link className="page_link" to="/maps">Maps</Link>
+        <Link className="page_link" to="/videos">Videos</Link>
       </div>
 
     </div>

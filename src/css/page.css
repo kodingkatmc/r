@@ -137,3 +137,7 @@ p, li{
     display: none;
   }
 }
+
+.listTable > tbody > tr > td{
+  padding-right: 25px;
+}

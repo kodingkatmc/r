@@ -1,5 +1,5 @@
 import {
-  BrowserRouter as Router,
+  HashRouter,
   Routes,
   Route
 } from 'react-router-dom';
@@ -11,27 +11,31 @@ import Datapacks from './datapacks.js';
 import Resourcepacks from './resourcepacks';
 import Maps from './maps.js';
 import Videos from './videos.js';
+
 import './css/styles.css';
 
 
-function app() {
-  return (
-    <div>
-      <Navbar/>
-      <img alt="splash" id="background" src={require('./images/background.jpg')}/>
+function App() {
 
-      <Router>
+  return (
+    <div id="app">
+      
+      <HashRouter>
+    
+        <Navbar/>
+        <img alt="splash" id="background" src={require('./images/background.jpg')}/>
+
         <Routes>
-          <Route exact path='/r' exact element={<Home/>} />
-          <Route exact path='/r/datapacks' element={<Datapacks/>} />
-          <Route exact path='/r/resourcepacks' element={<Resourcepacks/>} />
-          <Route exact path='/r/maps' element={<Maps/>} />
-          <Route exact path='/r/videos' element={<Videos/>} />
+          <Route path={'/'} element={<Home/>}/>
+          <Route path={'/datapacks'} element={<Datapacks/>} />
+          <Route path={'/resourcepacks'} element={<Resourcepacks/>} />
+          <Route path={'/maps'} element={<Maps/>} />
+          <Route path={'/videos'} element={<Videos/>} />
         </Routes>
-      </Router>
+      </HashRouter>
       <Footer/>
     </div>
   );
 }
 
-export default app;
+export default App;
