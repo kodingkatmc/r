@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/r/static/css/main.da1654ae.css",
+    "main.css": "/r/static/css/main.ba356228.css",
     "main.js": "/r/static/js/main.b4a6df72.js",
     "static/media/Safe House.zip": "/r/static/media/Safe House.5d50edca37055b8b667f.zip",
     "static/media/building_tools5.jpg": "/r/static/media/building_tools5.0078df824064208f62b7.jpg",
@@ -64,9 +64,11 @@
     "static/media/augment_vanilla23.jpg": "/r/static/media/augment_vanilla23.045b6c838bf05ab5ad50.jpg",
     "static/media/icon.jpg": "/r/static/media/icon.641ee0556edcc25afd77.jpg",
     "static/media/wolf_armor2.jpg": "/r/static/media/wolf_armor2.602677db843de9482cf6.jpg",
+    "static/media/software_tester_7.ttf": "/r/static/media/software_tester_7.c9bf7273a9d6fd2576f4.ttf",
     "static/media/Wolf Armor v1.3.zip": "/r/static/media/Wolf Armor v1.3.a563acc979c6fb499c2b.zip",
     "static/media/youtubeIcon.jpg": "/r/static/media/youtubeIcon.6bb591b7302069f09d88.jpg",
     "static/media/Iron Man v1.9.zip": "/r/static/media/Iron Man v1.9.93092d0b88efb719525d.zip",
+    "static/media/DPSDbeyond.otf": "/r/static/media/DPSDbeyond.26b9a913b99d3e5d6d72.otf",
     "static/media/Dweller v1.4.zip": "/r/static/media/Dweller v1.4.18de7a910ed0f3e86d47.zip",
     "static/media/kill e.jpg": "/r/static/media/kill e.c68bb04b9e0aac0cec8a.jpg",
     "static/media/wolf_armor4.jpg": "/r/static/media/wolf_armor4.fca95f832a4d8bda5e5c.jpg",
@@ -79,11 +81,11 @@
     "static/media/Kill Non-Player Entities v1.6.zip": "/r/static/media/Kill Non-Player Entities v1.6.50beda810dcd02c20a20.zip",
     "static/media/selected_packs.txt": "/r/static/media/selected_packs.18c4a26ac3c1d96880d1.txt",
     "index.html": "/r/index.html",
-    "main.da1654ae.css.map": "/r/static/css/main.da1654ae.css.map",
+    "main.ba356228.css.map": "/r/static/css/main.ba356228.css.map",
     "main.b4a6df72.js.map": "/r/static/js/main.b4a6df72.js.map"
   },
   "entrypoints": [
-    "static/css/main.da1654ae.css",
+    "static/css/main.ba356228.css",
     "static/js/main.b4a6df72.js"
   ]
 }
