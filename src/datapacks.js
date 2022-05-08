@@ -1,16 +1,16 @@
 import './css/page.css';
-import './css/dropdown.css';
 
 import $ from 'jquery'
 
 import Carousel from './carousel';
 import Querys from './querys';
+import Dropdown from './dropdown';
 
 
 function Datapacks() {
   document.title = "KodingKat - Datapacks";
 
-  function dropdown(e){
+  function drop(e){
     //console.log("Dropdown");
     //console.log(e.target);
     $(e.target.nextElementSibling).slideToggle(1000);
@@ -39,82 +39,84 @@ function Datapacks() {
         </div>
         <div className="content_sub">
           <div className="c_center_l">
-            <h3 className="collapsible_head" onClick={dropdown}>Feature List<span className="material-icons expand">expand_more</span></h3>
-            <ul className="collapsible">
-              <li>Custom</li>
-              <li className="hidden"><ul>
-                <li>Customizable arrow trails near you.</li>
-                <li>Bring more color to your world with colored campfire smoke.</li>
-              </ul></li>
-              <li>Danger</li>
-              <li className="hidden"><ul>
-                <li>Fireworks explode on impact and burn out.</li>
-                <li>Breaking glass and glass panes with a bare hand hurts.</li>
-                <li>The player will cause grass, dirt, and coarse dirt to cave in if the block is unsupported.</li>
-                <li>Low health effects vision.</li>
-                <li>Snowballs put out fires.</li>
-                <li>Lightning expands to other entities in water.</li>
-              </ul></li>
-              <li>Custom Enchantments - Found in end loot, mine-shafts, and pillager outposts.</li>
-              <li className="hidden"><ul>
-                <li>Freeze enemies in their tracks with Freeze.</li>
-                <li>Steal some of an enemies health with Life Steal.</li>
-                <li>Collect nearby items with Magnet.</li>
-                <li>Speed up travel with Speed boots.</li>
-                <li>Shoot arrows without drop off with Straight Shot.</li>
-                <li>Mine veins of ore with Vein Miner.</li>
-                <li>Quickly chop down trees with Truncidit.</li>
-              </ul></li>
-              <li>Entities</li>
-              <li className="hidden"><ul>
-                <li>The smallest magma cubes are explosive.</li>
-                <li>Smarter mobs motion allows mobs to jump over small gaps.</li>
-                <li>Endermen flee from players wearing a dragon head.</li>
-                <li>Custom health bar for mobs.</li>
-                <li>Dropped items display how many there are.</li>
-                <li>Piglins get angry when you mine nether quartz ore.</li>
-                <li>Villager nitwits talk incoherently.</li>
-                <li>Squids blind you with ink if you get close.</li>
-                <li>Iron Golems are affected by the Looting Enchantment.</li>
-          <li>Villagers drop emeralds when slain.</li>
-              </ul></li>
-              <li>Horticulture</li>
-              <li className="hidden"><ul>
-                <li>Dropped saplings get placed.</li>
-                <li>Balances to food. (different foods give different effects (e.g. slowness, night vision, speed, ...))</li>
-              </ul></li>
-              <li>Movement</li>
-              <li className="hidden"><ul>
-                <li>Chorus pearls teleport you and anything they come near randomly.</li>
-                <li>Grappling gun allows you to cross large gaps with flying ease.</li>
-                <li>Paths give speed while gravel and sand give slowness.</li>
-                <li>Sneaking gives you a larger, improved jump.</li>
-              </ul></li>
-              <li>Custom Recipes {'&'} Custom Smelting</li>
-            </ul>
+            <Dropdown title="Feature List">
+              <ul className="collapsible">
+                <li>Custom</li>
+                <li className="hidden"><ul>
+                  <li>Customizable arrow trails near you.</li>
+                  <li>Bring more color to your world with colored campfire smoke.</li>
+                </ul></li>
+                <li>Danger</li>
+                <li className="hidden"><ul>
+                  <li>Fireworks explode on impact and burn out.</li>
+                  <li>Breaking glass and glass panes with a bare hand hurts.</li>
+                  <li>The player will cause grass, dirt, and coarse dirt to cave in if the block is unsupported.</li>
+                  <li>Low health effects vision.</li>
+                  <li>Snowballs put out fires.</li>
+                  <li>Lightning expands to other entities in water.</li>
+                </ul></li>
+                <li>Custom Enchantments - Found in end loot, mine-shafts, and pillager outposts.</li>
+                <li className="hidden"><ul>
+                  <li>Freeze enemies in their tracks with Freeze.</li>
+                  <li>Steal some of an enemies health with Life Steal.</li>
+                  <li>Collect nearby items with Magnet.</li>
+                  <li>Speed up travel with Speed boots.</li>
+                  <li>Shoot arrows without drop off with Straight Shot.</li>
+                  <li>Mine veins of ore with Vein Miner.</li>
+                  <li>Quickly chop down trees with Truncidit.</li>
+                </ul></li>
+                <li>Entities</li>
+                <li className="hidden"><ul>
+                  <li>The smallest magma cubes are explosive.</li>
+                  <li>Smarter mobs motion allows mobs to jump over small gaps.</li>
+                  <li>Endermen flee from players wearing a dragon head.</li>
+                  <li>Custom health bar for mobs.</li>
+                  <li>Dropped items display how many there are.</li>
+                  <li>Piglins get angry when you mine nether quartz ore.</li>
+                  <li>Villager nitwits talk incoherently.</li>
+                  <li>Squids blind you with ink if you get close.</li>
+                  <li>Iron Golems are affected by the Looting Enchantment.</li>
+            <li>Villagers drop emeralds when slain.</li>
+                </ul></li>
+                <li>Horticulture</li>
+                <li className="hidden"><ul>
+                  <li>Dropped saplings get placed.</li>
+                  <li>Balances to food. (different foods give different effects (e.g. slowness, night vision, speed, ...))</li>
+                </ul></li>
+                <li>Movement</li>
+                <li className="hidden"><ul>
+                  <li>Chorus pearls teleport you and anything they come near randomly.</li>
+                  <li>Grappling gun allows you to cross large gaps with flying ease.</li>
+                  <li>Paths give speed while gravel and sand give slowness.</li>
+                  <li>Sneaking gives you a larger, improved jump.</li>
+                </ul></li>
+                <li>Custom Recipes {'&'} Custom Smelting</li>
+              </ul>
+            </Dropdown>
           </div>
           <div className="c_center_r">
-            <h3 className="collapsible_head" onClick={dropdown}>Additional Notes<span className="material-icons expand">expand_more</span></h3>
-            <div className="collapsible">
-              <h3>Enable/Disable Features</h3>
-              <p>To Disable any feature go to
-              <span className="code">.minecraft/saves/{"<"}WORLD_NAME{">"}/datapacks/improvevanilla/data/augment/functions/main</span>,
-              <span className="code">10_tick</span>, and
-              <span className="code">20_tick</span> <span className="code">.mcfunction</span> files and put a <span className="code">#</span> in front of all occurrences of that feature.</p>
-              <p>To stop villagers dropping emeralds delete <span className="code">.minecraft/saves/&ltWORLD_NAME&gl/datapacks/improvevanilla/data/minecraft/loot_tables/entities/villager.json</span>.</p>
-              <p>To remove any of the custom crafting or smelting delete which ever files correspond to the recipe you would like to remove in <span className="code">.minecraft/saves/&ltWORLD_NAME&gl/datapacks/improvevanilla/data/augment/recipes.</span></p>
-              <h3>Feature Notes</h3>
-              <p>To change what trails your arrows have use
-              <span className="code">./trigger arrowTrail set INSERTNUMBER</span></p>
-              <p>The numbers correspond to </p>
-              <table className="code listTable"><tbody>
-                <tr><td>0:normal</td><td>3:cloud</td></tr>
-                <tr><td>1:flame</td><td>4:ender_pearl</td></tr>
-                <tr><td>2:smoke</td><td>5:water</td></tr>
-              </tbody></table>
-              <p>Endermen will still be mad at you if you wear a dragon head but they will not be able to get to you. (Sometimes minecraft bugs out and they will hit you)</p>
-              <p>To use the grappling bow you must grab onto the saddle that will be pulled along.</p>
-            </div>
+            <Dropdown title="Additional Notes">
+              <div className="collapsible">
+                <h3>Enable/Disable Features</h3>
+                <p>To Disable any feature go to
+                <span className="code">.minecraft/saves/{"<"}WORLD_NAME{">"}/datapacks/improvevanilla/data/augment/functions/main</span>,
+                <span className="code">10_tick</span>, and
+                <span className="code">20_tick</span> <span className="code">.mcfunction</span> files and put a <span className="code">#</span> in front of all occurrences of that feature.</p>
+                <p>To stop villagers dropping emeralds delete <span className="code">.minecraft/saves/&ltWORLD_NAME&gl/datapacks/improvevanilla/data/minecraft/loot_tables/entities/villager.json</span>.</p>
+                <p>To remove any of the custom crafting or smelting delete which ever files correspond to the recipe you would like to remove in <span className="code">.minecraft/saves/&ltWORLD_NAME&gl/datapacks/improvevanilla/data/augment/recipes.</span></p>
+                <h3>Feature Notes</h3>
+                <p>To change what trails your arrows have use
+                <span className="code">./trigger arrowTrail set INSERTNUMBER</span></p>
+                <p>The numbers correspond to </p>
+                <table className="code listTable"><tbody>
+                  <tr><td>0:normal</td><td>3:cloud</td></tr>
+                  <tr><td>1:flame</td><td>4:ender_pearl</td></tr>
+                  <tr><td>2:smoke</td><td>5:water</td></tr>
+                </tbody></table>
+                <p>Endermen will still be mad at you if you wear a dragon head but they will not be able to get to you. (Sometimes minecraft bugs out and they will hit you)</p>
+                <p>To use the grappling bow you must grab onto the saddle that will be pulled along.</p>
+              </div>
+            </Dropdown>
           </div>
         </div>
       </div>
@@ -127,18 +129,19 @@ function Datapacks() {
           <div className="c_right_s">
             <p>This is my Ironman datapack.  This datapack adds armor and weapons that transforms you into Ironman from the MCU.  Fire machine guns, activate repulsors, shoot lasers, fly, get critical statistics, and become almost invincible with this datapack.</p>
             <a className="link center" download="Iron Man v1.9.zip" href={require("./data/datapacks/Iron Man v1.9.zip")}>Download Iron Man</a>
-            <h3 className="collapsible_head" onClick={dropdown}>Feature List<span className="material-icons expand">expand_more</span></h3>
-            <ul className="collapsible">
-              <li>Custom Helmet Model</li>
-              <li>Custom Armor Textures</li>
-              <li>Stronger Armor</li>
-              <li>Machine Gun</li>
-              <li>Booster</li>
-              <li>Repulsor</li>
-              <li>Missile</li>
-              <li>Laser</li>
-              <li>Nano Shield</li>
-            </ul>
+            <Dropdown title="Feature List">
+              <ul className="collapsible">
+                <li>Custom Helmet Model</li>
+                <li>Custom Armor Textures</li>
+                <li>Stronger Armor</li>
+                <li>Machine Gun</li>
+                <li>Booster</li>
+                <li>Repulsor</li>
+                <li>Missile</li>
+                <li>Laser</li>
+                <li>Nano Shield</li>
+              </ul>
+            </Dropdown>
           </div>
         </div>
       </div>
