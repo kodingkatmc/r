@@ -2,6 +2,7 @@ import './css/page.css';
 
 function Home() {
   document.title = "KodingKat - Home";
+  //document.getElementById("nav_list").children[0].classList.add("selected");
 
   return (
     <div id="holder">

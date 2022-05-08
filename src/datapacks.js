@@ -4,6 +4,7 @@ import './css/dropdown.css';
 import $ from 'jquery'
 
 import Carousel from './carousel';
+import Querys from './querys';
 
 
 function Datapacks() {
@@ -23,6 +24,7 @@ function Datapacks() {
 
   return (
     <div id="holder">
+      <Querys query="dp"/>
       <div className="content" id="augment">
         <h1 className="title right">Augment Vanilla</h1>
         <div className="content_sub">

@@ -1,7 +1,8 @@
 import {
   HashRouter,
   Routes,
-  Route
+  Route,
+  useSearchParams
 } from 'react-router-dom';
 
 import Navbar from './navbar.js';
@@ -16,7 +17,7 @@ import './css/styles.css';
 
 
 function App() {
-
+  
   return (
     <div id="app">
       
@@ -26,11 +27,11 @@ function App() {
         <img alt="splash" id="background" src={require('./images/background.jpg')}/>
 
         <Routes>
-          <Route path={'/'} element={<Home/>}/>
-          <Route path={'/datapacks'} element={<Datapacks/>} />
-          <Route path={'/resourcepacks'} element={<Resourcepacks/>} />
-          <Route path={'/maps'} element={<Maps/>} />
-          <Route path={'/videos'} element={<Videos/>} />
+          <Route path={'/*'} element={<Home/>}/>
+          <Route path={'/datapacks*'} element={<Datapacks/>} />
+          <Route path={'/resourcepacks*'} element={<Resourcepacks/>} />
+          <Route path={'/maps*'} element={<Maps/>} />
+          <Route path={'/videos*'} element={<Videos/>} />
         </Routes>
       </HashRouter>
       <Footer/>

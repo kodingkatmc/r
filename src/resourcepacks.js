@@ -1,11 +1,13 @@
 import './css/page.css';
 
+import Querys from './querys.js';
 
 function Resourcepacks() { 
   document.title = "KodingKat - Resourcepacks";
 
   return (
     <div id="holder">
+      <Querys query="rp"/>
       <div className="content">
         <h1 className="title center">Resourcepacks</h1>
         <div className="center">
@@ -30,7 +32,7 @@ function Resourcepacks() {
           </div>
         </div>
       </div>
-      <div className="content">
+      <div className="content" id="augment">
         <div className="content_sub">
           <div className="c_left_l">
             <h2>Augment Vanilla Resourcepack</h2>
@@ -40,7 +42,7 @@ function Resourcepacks() {
           <div className="c_right_s"><img alt="augment vanilla icon" className="pack" src={require("./images/augment.jpg")}/></div>
         </div>
       </div>
-      <div className="content">
+      <div className="content" id="iron_man">
         <div className="content_sub">
           <div className="c_left_s phoneHide"><img alt="ironman icon" className="pack" src={require("./images/ironman.jpg")}/></div>
           <div className="c_right_l">
@@ -51,7 +53,7 @@ function Resourcepacks() {
           <div className="c_left_s phone pack"><img alt="ironman icon" src={require("./images/ironman.jpg")}/></div>
         </div>
       </div>
-      <div className="content">
+      <div className="content" id="dweller">
         <div className="content_sub">
           <div className="c_left_l">
               <h2>Dweller Resourcepack</h2>
@@ -61,7 +63,7 @@ function Resourcepacks() {
           <div className="c_right_s"><img alt="dweller icon" className="pack" src={require("./images/dweller.jpg")}/></div>
         </div>
       </div>
-      <div className="content">
+      <div className="content" id="kkwa">
         <div className="content_sub">
           <div className="c_left_s phoneHide"><img alt="wolf armor icon" className="pack" src={require("./images/wolfarmor.jpg")}/></div>
           <div className="c_right_l">
