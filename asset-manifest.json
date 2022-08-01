@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/r/static/css/main.ba356228.css",
-    "main.js": "/r/static/js/main.b4a6df72.js",
+    "main.js": "/r/static/js/main.e80246d0.js",
     "static/media/Safe House.zip": "/r/static/media/Safe House.5d50edca37055b8b667f.zip",
     "static/media/building_tools5.jpg": "/r/static/media/building_tools5.0078df824064208f62b7.jpg",
     "static/media/building_tools6.jpg": "/r/static/media/building_tools6.97236e77c41c39e97f04.jpg",
@@ -32,7 +32,7 @@
     "static/media/iron_man2.jpg": "/r/static/media/iron_man2.ed280b151b42d1d5686a.jpg",
     "static/media/augment_vanilla5.jpg": "/r/static/media/augment_vanilla5.ac1101f51c83bb2d343c.jpg",
     "static/media/iron_man1.jpg": "/r/static/media/iron_man1.c2962c753a6f5cfea833.jpg",
-    "static/media/Iron Man.zip": "/r/static/media/Iron Man.7c42f6c8796d965c4c8c.zip",
+    "static/media/Iron Man.zip": "/r/static/media/Iron Man.9c3827b3227ad8cbed8b.zip",
     "static/media/augment_vanilla16.jpg": "/r/static/media/augment_vanilla16.700d20f78a4b3964a76a.jpg",
     "static/media/augment_vanilla4.jpg": "/r/static/media/augment_vanilla4.7604c0f55dab5e8ec7a4.jpg",
     "static/media/augment_vanilla7.jpg": "/r/static/media/augment_vanilla7.907216b0d3e4832fafb7.jpg",
@@ -60,32 +60,32 @@
     "static/media/augment_vanilla20.jpg": "/r/static/media/augment_vanilla20.cc5a6b588e2c0ea5c126.jpg",
     "static/media/augment_vanilla22.jpg": "/r/static/media/augment_vanilla22.7a8a6b2e7ade40f679af.jpg",
     "static/media/augment_vanilla24.jpg": "/r/static/media/augment_vanilla24.b7f131fba106716819ee.jpg",
-    "static/media/Augment Vanilla v1.10.zip": "/r/static/media/Augment Vanilla v1.10.422e0f2b9b7dba710ade.zip",
+    "static/media/Augment Vanilla v1.11.zip": "/r/static/media/Augment Vanilla v1.11.f023ee58f99ca1a12432.zip",
     "static/media/augment_vanilla23.jpg": "/r/static/media/augment_vanilla23.045b6c838bf05ab5ad50.jpg",
     "static/media/icon.jpg": "/r/static/media/icon.641ee0556edcc25afd77.jpg",
     "static/media/wolf_armor2.jpg": "/r/static/media/wolf_armor2.602677db843de9482cf6.jpg",
     "static/media/software_tester_7.ttf": "/r/static/media/software_tester_7.c9bf7273a9d6fd2576f4.ttf",
-    "static/media/Wolf Armor v1.3.zip": "/r/static/media/Wolf Armor v1.3.a563acc979c6fb499c2b.zip",
+    "static/media/Wolf Armor v1.4.zip": "/r/static/media/Wolf Armor v1.4.d24a95bf72c3943b0a96.zip",
     "static/media/youtubeIcon.jpg": "/r/static/media/youtubeIcon.6bb591b7302069f09d88.jpg",
-    "static/media/Iron Man v1.9.zip": "/r/static/media/Iron Man v1.9.93092d0b88efb719525d.zip",
     "static/media/DPSDbeyond.otf": "/r/static/media/DPSDbeyond.26b9a913b99d3e5d6d72.otf",
-    "static/media/Dweller v1.4.zip": "/r/static/media/Dweller v1.4.18de7a910ed0f3e86d47.zip",
+    "static/media/Iron Man v1.10.zip": "/r/static/media/Iron Man v1.10.0b08b6fa940a3602792e.zip",
+    "static/media/Dweller v1.5.zip": "/r/static/media/Dweller v1.5.e429d12d91b10b480155.zip",
     "static/media/kill e.jpg": "/r/static/media/kill e.c68bb04b9e0aac0cec8a.jpg",
     "static/media/wolf_armor4.jpg": "/r/static/media/wolf_armor4.fca95f832a4d8bda5e5c.jpg",
-    "static/media/Augment Vanilla.zip": "/r/static/media/Augment Vanilla.c446a4a3615e83bf8abd.zip",
+    "static/media/Augment Vanilla.zip": "/r/static/media/Augment Vanilla.91cfac455cb10f6e8c93.zip",
     "static/media/twitterIcon.jpg": "/r/static/media/twitterIcon.775a173171f1e9e29c2d.jpg",
-    "static/media/Building Tools v2.4.zip": "/r/static/media/Building Tools v2.4.6123f2a7e8e6b0a6702c.zip",
-    "static/media/Cave Creation v1.7.zip": "/r/static/media/Cave Creation v1.7.6f6f93c6ecd2750b1879.zip",
-    "static/media/Dweller.zip": "/r/static/media/Dweller.62d85de31f1b0a5e272c.zip",
-    "static/media/Wolf Armor.zip": "/r/static/media/Wolf Armor.8bcc73d6163ebe97cdb6.zip",
-    "static/media/Kill Non-Player Entities v1.6.zip": "/r/static/media/Kill Non-Player Entities v1.6.50beda810dcd02c20a20.zip",
-    "static/media/selected_packs.txt": "/r/static/media/selected_packs.18c4a26ac3c1d96880d1.txt",
+    "static/media/Building Tools v2.5.zip": "/r/static/media/Building Tools v2.5.97d0c3839090a2a1c878.zip",
+    "static/media/Cave Creation v1.8.zip": "/r/static/media/Cave Creation v1.8.2b9299b93e937dead73a.zip",
+    "static/media/Dweller.zip": "/r/static/media/Dweller.c1b44ec1e67bd1bea509.zip",
+    "static/media/Wolf Armor.zip": "/r/static/media/Wolf Armor.b442fe4459b720ffb9d7.zip",
+    "static/media/Kill Non-Player Entities v1.7.zip": "/r/static/media/Kill Non-Player Entities v1.7.d77c1c3648d561e1e5de.zip",
+    "static/media/selected_packs.txt": "/r/static/media/selected_packs.f7b5c3b3adc156967a85.txt",
     "index.html": "/r/index.html",
     "main.ba356228.css.map": "/r/static/css/main.ba356228.css.map",
-    "main.b4a6df72.js.map": "/r/static/js/main.b4a6df72.js.map"
+    "main.e80246d0.js.map": "/r/static/js/main.e80246d0.js.map"
   },
   "entrypoints": [
     "static/css/main.ba356228.css",
-    "static/js/main.b4a6df72.js"
+    "static/js/main.e80246d0.js"
   ]
 }
