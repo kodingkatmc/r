@@ -1,8 +1,7 @@
 import {
   HashRouter,
   Routes,
-  Route,
-  useSearchParams
+  Route
 } from 'react-router-dom';
 
 import Navbar from './navbar.js';

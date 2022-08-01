@@ -43,13 +43,17 @@ function Carousel(props) {
   
   function importAll(r) {
     let images = {};
-    r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
+    console.log(r.keys());
+    r.keys().map((item, index) => { 
+      images[item.replace('./', '')] = r(item);
+      return null;
+    });
     return images;
   }
 
   useEffect(()=>{
     const images = importAll(require.context("./images/", true, /\.jpg$/));
-
+    //console.log(images);
     let carousel = document.getElementById(folder+"_carousel");
     
     for(const key in images){
