@@ -43,7 +43,7 @@ function Carousel(props) {
   
   function importAll(r) {
     let images = {};
-    console.log(r.keys());
+    //console.log(r.keys());
     r.keys().map((item, index) => { 
       images[item.replace('./', '')] = r(item);
       return null;
