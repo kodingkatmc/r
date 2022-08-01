@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/r/static/css/main.ba356228.css",
-    "main.js": "/r/static/js/main.e80246d0.js",
+    "main.js": "/r/static/js/main.0b84babc.js",
     "static/media/Safe House.zip": "/r/static/media/Safe House.5d50edca37055b8b667f.zip",
     "static/media/building_tools5.jpg": "/r/static/media/building_tools5.0078df824064208f62b7.jpg",
     "static/media/building_tools6.jpg": "/r/static/media/building_tools6.97236e77c41c39e97f04.jpg",
@@ -82,10 +82,10 @@
     "static/media/selected_packs.txt": "/r/static/media/selected_packs.f7b5c3b3adc156967a85.txt",
     "index.html": "/r/index.html",
     "main.ba356228.css.map": "/r/static/css/main.ba356228.css.map",
-    "main.e80246d0.js.map": "/r/static/js/main.e80246d0.js.map"
+    "main.0b84babc.js.map": "/r/static/js/main.0b84babc.js.map"
   },
   "entrypoints": [
     "static/css/main.ba356228.css",
-    "static/js/main.e80246d0.js"
+    "static/js/main.0b84babc.js"
   ]
 }
