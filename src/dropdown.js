@@ -5,8 +5,7 @@ import $ from 'jquery'
 function Dropdown(props) {   
     
     function toggle(e){
-        //console.log("Dropdown");
-        //console.log(e.target);
+      
         $(e.target.nextElementSibling).slideToggle(1000);
     
         if (e.target.children[0].textContent === "expand_less") {
