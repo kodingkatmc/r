@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/r/static/css/main.ba356228.css",
-    "main.js": "/r/static/js/main.0b84babc.js",
+    "main.js": "/r/static/js/main.8cb34a5c.js",
     "static/media/Safe House.zip": "/r/static/media/Safe House.5d50edca37055b8b667f.zip",
     "static/media/building_tools5.jpg": "/r/static/media/building_tools5.0078df824064208f62b7.jpg",
     "static/media/building_tools6.jpg": "/r/static/media/building_tools6.97236e77c41c39e97f04.jpg",
@@ -66,26 +66,24 @@
     "static/media/wolf_armor2.jpg": "/r/static/media/wolf_armor2.602677db843de9482cf6.jpg",
     "static/media/software_tester_7.ttf": "/r/static/media/software_tester_7.c9bf7273a9d6fd2576f4.ttf",
     "static/media/Wolf Armor v1.4.zip": "/r/static/media/Wolf Armor v1.4.d24a95bf72c3943b0a96.zip",
-    "static/media/youtubeIcon.jpg": "/r/static/media/youtubeIcon.6bb591b7302069f09d88.jpg",
     "static/media/DPSDbeyond.otf": "/r/static/media/DPSDbeyond.26b9a913b99d3e5d6d72.otf",
     "static/media/Iron Man v1.10.zip": "/r/static/media/Iron Man v1.10.0b08b6fa940a3602792e.zip",
     "static/media/Dweller v1.5.zip": "/r/static/media/Dweller v1.5.e429d12d91b10b480155.zip",
     "static/media/kill e.jpg": "/r/static/media/kill e.c68bb04b9e0aac0cec8a.jpg",
     "static/media/wolf_armor4.jpg": "/r/static/media/wolf_armor4.fca95f832a4d8bda5e5c.jpg",
     "static/media/Augment Vanilla.zip": "/r/static/media/Augment Vanilla.91cfac455cb10f6e8c93.zip",
-    "static/media/twitterIcon.jpg": "/r/static/media/twitterIcon.775a173171f1e9e29c2d.jpg",
     "static/media/Building Tools v2.5.zip": "/r/static/media/Building Tools v2.5.97d0c3839090a2a1c878.zip",
     "static/media/Cave Creation v1.8.zip": "/r/static/media/Cave Creation v1.8.2b9299b93e937dead73a.zip",
     "static/media/Dweller.zip": "/r/static/media/Dweller.c1b44ec1e67bd1bea509.zip",
     "static/media/Wolf Armor.zip": "/r/static/media/Wolf Armor.b442fe4459b720ffb9d7.zip",
     "static/media/Kill Non-Player Entities v1.7.zip": "/r/static/media/Kill Non-Player Entities v1.7.d77c1c3648d561e1e5de.zip",
-    "static/media/selected_packs.txt": "/r/static/media/selected_packs.f7b5c3b3adc156967a85.txt",
+    "static/media/selected_packs.txt": "/r/static/media/selected_packs.650884500d6a490c97ef.txt",
     "index.html": "/r/index.html",
     "main.ba356228.css.map": "/r/static/css/main.ba356228.css.map",
-    "main.0b84babc.js.map": "/r/static/js/main.0b84babc.js.map"
+    "main.8cb34a5c.js.map": "/r/static/js/main.8cb34a5c.js.map"
   },
   "entrypoints": [
     "static/css/main.ba356228.css",
-    "static/js/main.0b84babc.js"
+    "static/js/main.8cb34a5c.js"
   ]
 }
