@@ -17,14 +17,12 @@ img{
   min-width: 39vw;
   min-height: 22vw;
 }
-#background{
-  padding-top: 80px;
-}
 
 #background{
   width:100%;
   height:auto;
   margin-bottom: -4px;
+  padding-top: 80px;
 }
 .content_sub{
   display: flex;
